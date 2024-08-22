@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,7 +35,7 @@
           theme: {
             extend: {
               colors: {
-                clifford: '#da373d',
+                'color-primary': 'rgb(171, 239, 95)',
               }
             }
           }
@@ -45,7 +45,60 @@
   <body class="manrope">
 
     <!-- Header Section -->
-    <header></header>
+    <header>
+        <nav class="w-11/12 mx-auto">
+          <div class="navbar ">
+            <div class="navbar-start">
+              
+              <div class="flex items-center space-x-1 ">
+                <span class="ml-2 -rotate-45 rounded-full border-transparent btn btn-circle btn-outline bg-lime-400 text-white">
+                  <i class="fa-solid fa-arrow-right">
+                  </i></span>
+                <!-- <p class="-rotate-45 rounded-full w-10 h-10 text-center p-1 bg-color-primary"><i class="fa-solid fa-arrow-right"></i></p> -->
+                <a class="btn btn-ghost text-5xl font-bold">Rinterio</a>
+              </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="font-bold">Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end gap-5 items-center">
+               <div class="hidden lg:flex gap-5 text-lg">
+                <button class=" btn btn-circle btn-outline border-neutral-300">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <button class="btn btn-circle btn-outline border-neutral-300">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+                <button class=" flex items-center gap-2 btn rounded-full bg-lime-400">
+                  <span>Book Consult</span>
+                  <span class="ml-2 -rotate-45 rounded-full border-transparent p-2 justify-center text-center items-center btn-outline bg-black text-white">
+                    <i class="fa-solid fa-arrow-right">
+                    </i></span>
+                </button>
+               </div>
+               <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a class="font-bold">Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
 
     <!-- Main section -->
     <main></main>
