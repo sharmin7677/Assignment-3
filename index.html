@@ -280,7 +280,7 @@
           
 
           <!-- Project session -->
-          <section class="p-8 bg-project ">
+          <section class="p-8  bg-project ">
             <div class="text-center mb-6">
               <button class="inline-flex items-center space-x-2 text-sm btn rounded-full bg-lime-100">
                 <i class="fa-solid fa-arrow-right"></i>
@@ -294,12 +294,12 @@
               <br>
               featuring weathered wood, sleek metal accents.</p>
 
-              <div class="grid grid-cols-4 grid-rows-4 text center gap-12 w-8/12 mx-auto">
+              <div class="grid sm:grid-cols-2 lg:grid-cols-4 grid-rows-4 text center gap-12 lg:w-8/12 mx-auto">
                 
-                      <div class="col-span-2 gap-4 rounded-full bg-white p-2"><input type="text" placeholder="First Name*"></div>
-                      <div class="col-span-2 gap-4 rounded-full bg-white p-2"><input type="text" placeholder="Last Name*"></div>
-                      <div class="col-span-2 gap-4 rounded-full bg-white p-2"><input type="text" placeholder="Phone Number*"></div>
-                      <div class="col-span-2 gap-4 rounded-full bg-white p-2"><input type="text" placeholder="Email Number*"></div>
+                      <div class="lg:col-span-2 col-span-4 gap-4 rounded-full bg-white p-2"><input type="text" placeholder="First Name*"></div>
+                      <div class="lg:col-span-2 col-span-4 gap-4 rounded-full bg-white p-2"><input type="text" placeholder="Last Name*"></div>
+                      <div class="lg:col-span-2 col-span-4 gap-4 rounded-full bg-white p-2"><input type="text" placeholder="Phone Number*"></div>
+                      <div class="lg:col-span-2 col-span-4 gap-4 rounded-full bg-white p-2"><input type="text" placeholder="Email Number*"></div>
                       <div class="col-span-4 p-2 row-span-4 rounded-3xl bg-white"><input type="text" placeholder="Write your message here"></div>
                       <div class="col-span-4">
                         <a class="flex btn font-bold text-xl bg-lime-400 rounded-full">Send Mail
@@ -312,6 +312,28 @@
     </main>
 
     <!-- Footer Section -->
-    <footer></footer>
+    
+      <footer class="footer footer-center bg-black rounded p-10">
+        <aside>
+          <div class="navbar-start">
+            <button class="ml-2 bg-lime-400 text-black rounded-full w-6 h-6 -rotate-45"><i class="fa-solid fa-arrow-right"></i></button>
+              <a class="text-xl font-bold ml-2 text-white">Rinterio</a>
+          </div>
+          <p class="text-gray-400">The barn house captivates with its blend of rustic charm and modern sophistication,
+            <br>
+            featuring weathered wood, sleek metal accents.</p>
+        </aside>
+        <nav class="grid grid-flow-col gap-4 text-white">
+          <a class="link link-hover">Home</a>
+          <a class="link link-hover">Services</a>
+          <a class="link link-hover">Portfolio</a>
+          <a class="link link-hover">Blogs</a>
+        </nav>
+        <div>
+          <a class="hidden lg:flex btn font-bold text-xl bg-lime-400 rounded-full">Book Consult
+           <span class="bg-black text-white rounded-full w-7 h-7 -rotate-45"><i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+        </div>
+    </footer>
   </body>
 </html>
